@@ -6,7 +6,7 @@
 
 * GitHub username: mcoleman2760
 
-* Notes: To run the file first do g++ main.cpp indfix.cpp in the compiler then ./a.out < bad-code.cpp
+* Notes: To run the file first run g++ main.cpp indfix.cpp in the compiler then ./a.out < bad-code.cpp
 
 
   
