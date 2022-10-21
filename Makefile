@@ -1,14 +1,14 @@
 main: main.o 
-	g++ -o main main.o remove.o
+	g++ -o main main.o indfix.o
 
 tests: tests.o 
 	g++ -o tests tests.o 
 
 
 
-remove.o: remove.cpp remove.h
+indfix.o: indfix.cpp indfix.h
 
-main.o: main.cpp funcs.h
+main.o: main.cpp indfix.h
 
 clean:
-	rm -f main.o remove.o 
+	rm -f main.o indfix.o 
