@@ -1,3 +1,5 @@
+CXXFLAGS = --coverage -g -O0
+
 main: main.o 
 	g++ -o main main.o indfix.o
 
