@@ -3,6 +3,7 @@
 #include "indfix.h"
 #include <string>
 
+// a comment
 int main() {
 
  std::string inp2; 
